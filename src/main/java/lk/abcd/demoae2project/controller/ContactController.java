@@ -1,4 +1,4 @@
-package lk.abcd.demoae2project.controller;
+package lk.abcd.demoae2project.Controller;
 
 
 import lk.abcd.demoae2project.model.Contact;
