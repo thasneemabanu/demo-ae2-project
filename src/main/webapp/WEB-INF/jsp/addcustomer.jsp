@@ -9,16 +9,20 @@
             <td><form:input path="firstname"/></td>
         </tr>
          <tr>
-                    <td>Last Name: </td>
-                    <td><form:input path="lastname"/></td>
+            <td>Last Name: </td>
+            <td><form:input path="lastname"/></td>
         </tr>
          <tr>
-                    <td>Mobile Number: </td>
-                    <td><form:input path="mobile"/></td>
+            <td>Mobile Number: </td>
+            <td><form:input path="mobile"/></td>
         </tr>
         <tr>
             <td>Email: </td>
             <td><form:input path="email"/></td>
+        </tr>
+        <tr>
+            <td>Password: </td>
+            <td><form:input path="password"/></td>
         </tr>
          <tr>
            <td>Address: </td>

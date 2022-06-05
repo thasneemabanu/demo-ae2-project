@@ -30,6 +30,7 @@ public class CustomerService {
             updatecustomer.setLastname(customer.getLastname());
             updatecustomer.setMobile(customer.getMobile());
             updatecustomer.setEmail(customer.getEmail());
+            updatecustomer.setPassword(customer.getPassword());
             updatecustomer.setAddress(customer.getAddress());
             updatecustomer.setCountry(customer.getCountry());
             customerRepositoryobject.save(updatecustomer);

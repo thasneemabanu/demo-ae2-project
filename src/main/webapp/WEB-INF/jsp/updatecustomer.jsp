@@ -20,6 +20,10 @@
             <td>Email: </td>
             <td><form:input path="email"/></td>
         </tr>
+        <tr>
+            <td>Password: </td>
+            <td><form:input path="passwored"/></td>
+        </tr>
          <tr>
             <td>Address: </td>
             <td><form:input path="address"/></td>

@@ -1,4 +1,4 @@
-package lk.abcd.demoae2project.Controller;
+package lk.abcd.demoae2project.controller;
 
 import lk.abcd.demoae2project.model.Hotel;
 import lk.abcd.demoae2project.service.HotelService;

@@ -28,6 +28,9 @@ public class Customer {
     private String email;
 
     @Column
+    private String password;
+
+    @Column
     private String address;
 
     @Column
