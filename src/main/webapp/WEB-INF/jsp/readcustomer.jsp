@@ -5,8 +5,8 @@
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
-            <th>Firstname</th>
-            <th>Lastname</th>
+            <th>CustomerFirstname</th>
+            <th>CustomerLastname</th>
             <th>Mobile</th>
             <th>Email</th>
             <th>Password</th>

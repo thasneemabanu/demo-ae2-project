@@ -5,11 +5,11 @@
 <form:form method="post" action="/update-customer/${id}">
     <table>
         <tr>
-            <td>First Name: </td>
+            <td>Customer First Name: </td>
             <td><form:input path="firstname"/></td>
         </tr>
          <tr>
-            <td>Last Name: </td>
+            <td>Customer Last Name: </td>
             <td><form:input path="lastname"/></td>
         </tr>
          <tr>
