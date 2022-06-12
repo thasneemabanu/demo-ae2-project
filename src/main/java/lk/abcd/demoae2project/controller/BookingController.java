@@ -26,7 +26,7 @@ public class BookingController {
         return "addbooking";
     }
     @PostMapping("/add-booking")
-    public String createContact(@ModelAttribute("booking")Booking booking){
+    public String addBooking(@ModelAttribute("booking")Booking booking){
         bookingService.saveBooking(booking);
         return "redirect:/read-booking";
     }
