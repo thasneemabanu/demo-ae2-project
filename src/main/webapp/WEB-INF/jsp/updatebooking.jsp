@@ -6,15 +6,19 @@
     <table>
         <tr>
             <td>Customer First Name: </td>
-            <td><form:input path="name"/></td>
+            <td><form:input path="cottagename"/></td>
         </tr>
         <tr>
             <td>Customer Last Name: </td>
-            <td><form:input path="email"/></td>
+            <td><form:input path="cottagetype"/></td>
         </tr>
         <tr>
             <td>Date: </td>
-            <td><form:input path="country"/></td>
+            <td><form:input path="cottageprice"/></td>
+        </tr>
+        <tr>
+            <td>Date: </td>
+            <td><form:input path="bookedon"/></td>
         </tr>
         <tr>
             <td></td>

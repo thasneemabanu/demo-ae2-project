@@ -5,16 +5,19 @@
 <form:form method="post" action="/add-booking">
     <table>
         <tr>
-            <td>Customer First Name: </td>
-            <td><form:input path="customerfirstname"/></td>
+            <td>Cottage Name: </td>
+            <td><form:input path="cottagename"/></td>
         </tr>
         <tr>
-            <td>Customer Last Name: </td>
-            <td><form:input path="customerlasstname"/></td>
+            <td>Cottage Type: </td>
+            <td><form:input path="cottagetype"/></td>
         </tr>
         <tr>
-            <td>Date: </td>
-            <td><form:input path="date"/></td>
+            <td>Cottage Price: </td>
+            <td><form:input path="cottageprice"/></td>
+        </tr>
+            <td>Booked On: </td>
+            <td><form:input path="bookedon"/></td>
         </tr>
         <tr>
             <td></td>

@@ -15,11 +15,15 @@ public class Booking {
     private Integer Id;
 
     @Column(nullable = false,length = 50)
-    private String customerfirstname;
+    private String cottagename;
 
     @Column
-    private String customerlasstname;
+    private String cottagetype;
 
     @Column
-    private String date;
+    private String cottageprice;
+
+    @Column
+    private String bookedon;
+
 }

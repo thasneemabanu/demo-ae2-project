@@ -26,9 +26,10 @@ public class BookingService {
     public Booking updatebooking(int id, Booking booking) {
         Booking updatebooking = bookingRepositoryobject.findById(id).orElse(null);
         if (updatebooking != null){
-            updatebooking.setCustomerfirstname(booking.getCustomerfirstname());
-            updatebooking.setCustomerlasstname(booking.getCustomerlasstname());
-            updatebooking.setDate(booking.getDate());
+            updatebooking.setCottagename(booking.getCottagename());
+            updatebooking.setCottagetype(booking.getCottagetype());
+            updatebooking.setCottageprice(booking.getCottageprice());
+            updatebooking.setBookedon(booking.getBookedon());
             bookingRepositoryobject.save(updatebooking);
         }
         return updatebooking;
