@@ -6,17 +6,19 @@
         <tr>
             <th>Id</th>
             <th>Package</th>
-            <th>Email</th>
-            <th>Country</th>
+            <th>Package Type</th>
+            <th>Price</th>
+            <th>Details</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         <c:forEach var="packag" items="${packages}">
             <tr>
                 <td>${packag.id}</td>
-                <td>${packag.pack}</td>
-                <td>${packag.email}</td>
-                <td>${packag.country}</td>
+                <td>${packag.packagename}</td>
+                <td>${packag.packagetype}</td>
+                <td>${packag.packageprice}</td>
+                <td>${packag.packagedetails}</td>
                 <td><a href="/update-package/${packag.id}">Update</a></td>
                 <td><a href="/delete-package/${packag.id}">Delete</a></td>
             </tr>

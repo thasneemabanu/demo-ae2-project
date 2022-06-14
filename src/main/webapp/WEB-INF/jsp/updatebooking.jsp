@@ -5,20 +5,24 @@
 <form:form method="post" action="/update-booking/${id}">
     <table>
         <tr>
-            <td>Customer First Name: </td>
-            <td><form:input path="cottagename"/></td>
+            <td>Employee Name: </td>
+            <td><form:input path="employeename"/></td>
         </tr>
         <tr>
-            <td>Customer Last Name: </td>
-            <td><form:input path="cottagetype"/></td>
+            <td>Customer Id: </td>
+            <td><form:input path="customerid"/></td>
         </tr>
         <tr>
-            <td>Date: </td>
-            <td><form:input path="cottageprice"/></td>
+            <td>Package Id: </td>
+            <td><form:input path="packageid"/></td>
         </tr>
         <tr>
-            <td>Date: </td>
+            <td>Booked On: </td>
             <td><form:input path="bookedon"/></td>
+        </tr>
+        <tr>
+            <td>Number of days: </td>
+            <td><form:input path="numberofdays"/></td>
         </tr>
         <tr>
             <td></td>

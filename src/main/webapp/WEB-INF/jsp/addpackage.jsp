@@ -6,15 +6,19 @@
     <table>
         <tr>
             <td>Package: </td>
-            <td><form:input path="pack"/></td>
+            <td><form:input path="packagename"/></td>
         </tr>
         <tr>
-            <td>Email: </td>
-            <td><form:input path="email"/></td>
+            <td>Package Name: </td>
+            <td><form:input path="packagetype"/></td>
         </tr>
         <tr>
-            <td>Country: </td>
-            <td><form:input path="country"/></td>
+            <td>Price: </td>
+            <td><form:input path="packageprice"/></td>
+        </tr>
+        <tr>
+            <td>Details: </td>
+            <td><form:input path="packagedetails"/></td>
         </tr>
         <tr>
             <td></td>

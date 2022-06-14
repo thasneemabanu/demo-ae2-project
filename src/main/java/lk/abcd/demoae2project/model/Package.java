@@ -15,12 +15,16 @@ public class Package {
     private Integer Id;
 
     @Column(nullable = false,length = 50)
-    private String pack;
+    private String packagename;
 
     @Column
-    private String email;
+    private String packagetype;
 
     @Column
-    private String country;
+    private String packageprice;
+
+    @Column
+    private String packagedetails;
+
 
 }

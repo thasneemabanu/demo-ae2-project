@@ -5,20 +5,22 @@
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
-            <th>cottagename</th>
-            <th>cottagetype</th>
-            <th>cottageprice</th>
-            <th>bookedon</th>
+            <th>Employee Name</th>
+            <th>Customer id</th>
+            <th>Package id</th>
+            <th>Booked on</th>
+            <th>Number of days</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         <c:forEach var="booking" items="${bookings}">
             <tr>
                 <td>${booking.id}</td>
-                <td>${booking.cottagename}</td>
-                <td>${booking.cottagetype}</td>
-                <td>${booking.cottageprice}</td>
+                <td>${booking.employeename}</td>
+                <td>${booking.customerid}</td>
+                <td>${booking.packageid}</td>
                 <td>${booking.bookedon}</td>
+                <td>${booking.numberofdays}</td>
                 <td><a href="/update-booking/${booking.id}">Update</a></td>
                 <td><a href="/delete-booking/${booking.id}">Delete</a></td>
             </tr>
