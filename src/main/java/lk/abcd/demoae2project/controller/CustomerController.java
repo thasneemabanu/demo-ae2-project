@@ -2,6 +2,7 @@ package lk.abcd.demoae2project.controller;
 
 import lk.abcd.demoae2project.model.Customer;
 import lk.abcd.demoae2project.service.CustomerService;
+import org.aspectj.bridge.ICommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -9,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+
+import java.util.Optional;
 
 @Controller
 public class CustomerController {
@@ -48,5 +51,18 @@ public class CustomerController {
     public String deleteCustomer(@PathVariable int id){
         customerService.deleteById(id);
         return "redirect:/read-customer";
+    }
+    @GetMapping("/login-customer")
+    public String showLoginPage(Model model) {
+        model.addAttribute("command", new Customer());
+        return "login";
+    }
+    @PostMapping("/login-customer")
+    public String login(@ModelAttribute("customer") Customer customer) {
+        boolean isPresent = customerService.login(customer);
+        if (isPresent)
+            return "redirect:/read-customer";
+        else
+            return "redirect:/add-customer";
     }
 }

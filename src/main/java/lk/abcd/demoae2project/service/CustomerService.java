@@ -84,6 +84,10 @@ public class CustomerService {
         customerRepositoryobject.deleteById(id);
         LOG.info("Successfully deleted the details of the given id.");
     }
-
+    public boolean login(Customer customer) {
+        Optional<Customer> login = customerRepositoryobject.findByEmailAndCountry(customer.getEmail(), customer.getCountry());
+        LOG.info("Customer found and given credentials");
+        return login.isPresent();
+    }
 }
 
