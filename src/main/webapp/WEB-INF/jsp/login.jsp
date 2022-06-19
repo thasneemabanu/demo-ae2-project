@@ -10,8 +10,8 @@
             <td><form:input path="email"/></td>
         </tr>
         <tr>
-            <td>Country: </td>
-            <td><form:input path="country"/></td>
+            <td>Password: </td>
+            <td><form:input path="password"/></td>
         </tr>
         <tr>
             <td></td>
