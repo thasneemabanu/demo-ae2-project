@@ -4,27 +4,23 @@
 <h1>Update Contact</h1>
 <form:form method="post" action="/update-booking/${id}">
     <table>
-        <tr>
+        <tr class = "row">
             <td>Employee Name: </td>
             <td><form:input path="employeename"/></td>
-        </tr>
-        <tr>
             <td>Customer Id: </td>
             <td><form:input path="customerid"/></td>
         </tr>
-        <tr>
+        <tr class = "row">
             <td>Package Id: </td>
             <td><form:input path="packageid"/></td>
-        </tr>
-        <tr>
             <td>Booked On: </td>
             <td><form:input path="bookedon"/></td>
         </tr>
-        <tr>
+        <tr class = "row">
             <td>Number of days: </td>
             <td><form:input path="numberofdays"/></td>
         </tr>
-        <tr>
+        <tr class = "row">
             <td></td>
             <td><input class="btn btn-primary" type="submit" value="Update" /></td>
         </tr>

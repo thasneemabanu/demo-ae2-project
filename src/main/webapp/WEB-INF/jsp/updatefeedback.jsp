@@ -4,19 +4,15 @@
 <h1>Update Feedback</h1>
 <form:form method="post" action="/update-feedback/${id}">
     <table>
-        <tr>
+        <tr class = "row">
             <td>Name: </td>
             <td><form:input path="name"/></td>
-        </tr>
-         <tr>
             <td>Email: </td>
             <td><form:input path="email"/></td>
         </tr>
-         <tr>
+         <tr class = "row">
             <td>Message: </td>
             <td><form:input path="message"/></td>
-        </tr>
-        <tr>
             <td>Ratings: </td>
             <td><form:input path="ratingsforthehotel"/></td>
         </tr>

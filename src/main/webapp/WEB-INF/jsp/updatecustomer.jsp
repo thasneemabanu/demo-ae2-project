@@ -4,31 +4,25 @@
 <h1>Update Contact</h1>
 <form:form method="post" action="/update-customer/${id}">
     <table>
-        <tr>
+        <tr class = "row">
             <td>First Name: </td>
             <td><form:input path="firstname"/></td>
-        </tr>
-         <tr>
             <td>Last Name: </td>
             <td><form:input path="lastname"/></td>
         </tr>
-         <tr>
+         <tr class = "row">
             <td>Mobile Number: </td>
             <td><form:input path="mobile"/></td>
         </tr>
-        <tr>
+        <tr class = "row">
             <td>Email: </td>
             <td><form:input path="email"/></td>
-        </tr>
-        <tr>
             <td>Password: </td>
             <td><form:input path="password"/></td>
         </tr>
-         <tr>
+         <tr class = "row">
             <td>Address: </td>
             <td><form:input path="address"/></td>
-        </tr>
-        <tr>
             <td>Country: </td>
             <td><form:input path="country"/></td>
         </tr>
