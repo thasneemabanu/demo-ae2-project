@@ -16,6 +16,7 @@
         <tr>
             <td></td>
             <td><input class="btn btn-primary" type="submit" value="Login"/></td>
+            <td><a href="/add-customer">register a customer<input class="btn btn-Primary" type="submit" value="Login"/></a></td>
         </tr>
     </table>
 </form:form>
