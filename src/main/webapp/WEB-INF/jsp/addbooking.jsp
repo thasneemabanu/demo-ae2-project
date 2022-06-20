@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <link href="/css/bootstrap.css" rel="stylesheet">
-<h1 class="center"> Booking Form</h1>
+<h1 class="text-dark text-center " style="background:silver;"> Booking Form</h1>
 <form:form method="post" action="/add-booking">
     <table>
         <tr class = "row">
