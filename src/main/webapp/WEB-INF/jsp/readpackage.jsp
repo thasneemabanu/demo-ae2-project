@@ -1,7 +1,9 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Read Package</h1>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<body style="background-color:powderblue;">
+<h1 class="text-dark text-center " style="background:white;">Read Package</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
@@ -19,10 +21,12 @@
                 <td>${packag.packagetype}</td>
                 <td>${packag.packageprice}</td>
                 <td>${packag.packagedetails}</td>
-                <td><a href="/update-package/${packag.id}">Update</a></td>
-                <td><a href="/delete-package/${packag.id}">Delete</a></td>
+                <td><a class="btn btn-warning" href="/update-package/${packag.id}">Update</a></td>
+                <td><a class="btn btn-danger" href="/delete-package/${packag.id}">Delete</a></td>
             </tr>
         </c:forEach>
     </table>
 <br/>
-<a href="/add-package">add Package</a>
+<a class="btn btn-Primary" href="/add-package">add Package</a>
+</body>
+<script src="/js/bootstrap.js"></script>

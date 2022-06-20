@@ -1,7 +1,11 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Create Hotel</h1>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<body style="background-color:powderblue;">
+<div class="container">
+    <div class="card">
+<h1 class="text-light text-center " style="background:black;">Create Hotel</h1>
 <form:form method="post" action="/create-hotel">
     <table>
         <tr class = "row">
@@ -24,7 +28,11 @@
         </tr>
         <tr <tr class = "row">>
             <td></td>
-            <td><input type="submit" value="Create"/></td>
+            <td><input class="btn btn-outline-success" type="submit" value="Create"/></td>
         </tr>
     </table>
 </form:form>
+    </div>
+ </div>
+</body>
+<script src="/js/bootstrap.js"></script>

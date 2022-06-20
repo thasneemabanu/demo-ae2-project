@@ -1,7 +1,9 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Read Bookings</h1>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<body style="background-color:powderblue;">
+<h1 class="text-dark text-center " style="background:white;">Read Bookings</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
@@ -21,10 +23,12 @@
                 <td>${booking.packageid}</td>
                 <td>${booking.bookedon}</td>
                 <td>${booking.numberofdays}</td>
-                <td><a href="/update-booking/${booking.id}">Update</a></td>
-                <td><a href="/delete-booking/${booking.id}">Delete</a></td>
+                <td><a class="btn btn-warning" href="/update-booking/${booking.id}">Update</a></td>
+                <td><a class="btn btn-danger" href="/delete-booking/${booking.id}">Delete</a></td>
             </tr>
         </c:forEach>
     </table>
 <br/>
-<a href="/add-booking">Create Bookings</a>
+<a class="btn btn-Primary" href="/add-booking">Create Bookings</a>
+</body>
+<script src="/js/bootstrap.js"></script>

@@ -1,7 +1,9 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Read customer feedback</h1>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<body style="background-color:powderblue;">
+<h1 class="text-dark text-center " style="background:white;">Read customer feedback</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
             <th>Id</th>
@@ -19,10 +21,12 @@
                 <td>${feedback.email}</td>
                 <td>${feedback.message}</td>
                 <td>${feedback.ratingsforthehotel}</td>
-                <td><a href="/update-feedback/${feedback.id}">Update</a></td>
-                <td><a href="/delete-feedback/${feedback.id}">Delete</a></td>
+                <td><a class="btn btn-warning" href="/update-feedback/${feedback.id}">Update</a></td>
+                <td><a class="btn btn-danger" href="/delete-feedback/${feedback.id}">Delete</a></td>
             </tr>
         </c:forEach>
     </table>
 <br/>
-<a href="/create-feedback">Create Customer feedback</a>
+<a class="btn btn-Primary" href="/create-feedback">Create Customer feedback</a>
+</body>
+<script src="/js/bootstrap.js"></script>
