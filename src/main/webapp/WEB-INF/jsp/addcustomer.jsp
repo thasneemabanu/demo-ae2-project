@@ -1,6 +1,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+<link href="/css/bootstrap.css" rel="stylesheet">
 <h1>Create Customer</h1>
 <form:form method="post" action="/add-customer">
 <div class="container">
@@ -29,8 +30,9 @@
         </tr>
         <tr class = "row">
             <td></td>
-            <td><input type="submit" value="Add"/></td>
+            <td><input class="btn btn-Dark" type="submit" value="Add"/></td>
         </tr>
 <div>
     </table>
 </form:form>
+<script src="/js/bootstrap.js"></script>
