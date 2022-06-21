@@ -3,7 +3,7 @@
 
 
 <link href="/css/bootstrap.css" rel="stylesheet">
-<body style="background-color:powderblue;">
+<center><body style="background-color:powderblue;">
 <div class="container">
     <div class="card">
 <h1 class="text-light text-center " style="background:black;">Create Package</h1>
@@ -29,5 +29,5 @@
 </form:form>
     </div>
  </div>
-</body>
+</body></center>
 <script src="/js/bootstrap.js"></script>

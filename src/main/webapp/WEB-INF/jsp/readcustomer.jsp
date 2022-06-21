@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <link href="/css/bootstrap.css" rel="stylesheet">
-<body style="background-color:powderblue;">
+<center><body style="background-color:powderblue;">
 <h1 class="text-dark text-center " style="background:white;">Read Customers</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
@@ -34,5 +34,5 @@
     </table>
 <br/>
 <a class="btn btn-Primary" href="/add-customer">Create Customer</a>
-</body>
+</body></center>
 <script src="/js/bootstrap.js"></script>
