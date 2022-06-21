@@ -1,24 +1,36 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
-<h1>Update Package</h1>
+<link href="/css/bootstrap.css" rel="stylesheet">
+<body style="background-color:powderblue;">
+<div class="container">
+    <div class="card">
+<h1 class="text-light text-center " style="background:black;" >Update Package</h1>
 <form:form method="post" action="/update-package/${id}">
     <table>
-        <tr class = "row">
+        <tr>
             <td>Package: </td>
             <td><form:input path="packagename"/></td>
+        </tr>
+        <tr>
             <td>Package Name: </td>
             <td><form:input path="packagetype"/></td>
         </tr>
-        <tr class = "row">
+        <tr>
             <td>Price: </td>
             <td><form:input path="packageprice"/></td>
+        </tr>
+        <tr>
             <td>Details: </td>
             <td><form:input path="packagedetails"/></td>
         </tr>
-        <tr class = "row">
+        <tr>
             <td></td>
-            <td><input type="submit" value="Update" /></td>
+            <td><input class="btn btn-primary" type="submit" value="Update" /></td>
         </tr>
     </table>
 </form:form>
+    </div>
+ </div>
+</body>
+<script src="/js/bootstrap.js"></script>
