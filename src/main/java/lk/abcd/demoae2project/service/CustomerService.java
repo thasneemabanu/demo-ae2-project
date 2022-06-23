@@ -85,7 +85,7 @@ public class CustomerService {
         LOG.info("Successfully deleted the details of the given id.");
     }
     public boolean login(Customer customer) {
-        Optional<Customer> login = customerRepositoryobject.findByEmailAndPassword(customer.getEmail(), customer.getCountry());
+        Optional<Customer> login = customerRepositoryobject.findByEmailAndPassword(customer.getEmail(), customer.getPassword());
         LOG.info("Customer found and given credentials");
         return login.isPresent();
     }
