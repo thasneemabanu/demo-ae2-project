@@ -1,33 +1,41 @@
 # demo-ae2-project
-project on second semester-SSD
-About Tourism Management System
-Tourism Management System is a web application based on Maven technology that has been done in IntelliJ -java8 version, which keeps track of tourism details.
+##project on second semester-SSD
+#About Tourism Management System
+
+#Tourism Management System is a web application based on Maven technology that has been done in IntelliJ -java8 version, which keeps track of tourism details.
 It is the system you use to do all the tourism packages and tourism plans management in a one complete system.  
 
 Major Technologies:
 
-Java8
+#Java8
 
-Git
+#Git
 
-Maven
+#Maven
 
-PHP
+#PHP
 
-Intellij IDE
+#Intellij IDE
 
-H2 Database
+#H2 Database
 
+#Included Dependencies in the Pom.xml 
 
-Included Dependencies in the Pom.xml 
-spring-boot-starter-web
-spring-boot-starter-data-jpa
-tomcat-embed-jasper
-javax.servlet-jstl
-lombok
-spring-boot-starter-test
-h2 database - h2
-spring-boot-maven-plugin
+#spring-boot-starter-web
+
+#spring-boot-starter-data-jpa
+
+#tomcat-embed-jasper
+
+#javax.servlet-jstl
+
+#lombok
+
+#spring-boot-starter-test
+
+#h2 database - h2
+
+#spring-boot-maven-plugin
 
 Admin credential
 username:
