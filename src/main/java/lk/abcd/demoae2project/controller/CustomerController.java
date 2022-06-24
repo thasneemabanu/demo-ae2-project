@@ -2,7 +2,6 @@ package lk.abcd.demoae2project.controller;
 
 import lk.abcd.demoae2project.model.Customer;
 import lk.abcd.demoae2project.service.CustomerService;
-import org.aspectj.bridge.ICommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

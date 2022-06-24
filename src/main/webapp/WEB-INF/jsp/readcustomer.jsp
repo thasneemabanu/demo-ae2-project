@@ -29,6 +29,7 @@
                 <td>${customer.country}</td>
                 <td><a class="btn btn-warning" href="/update-customer/${customer.id}">Update</a></td>
                 <td><a class="btn btn-danger" href="/delete-customer/${customer.id}">Delete</a></td>
+                <td><a class="btn btn-danger" href="">Back</a></td>
             </tr>
         </c:forEach>
     </table>
