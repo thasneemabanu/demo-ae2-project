@@ -61,7 +61,7 @@ Build the system ,
 2. ./mvnw spring-boot:run\  
 (Through this command it is running the Tourist management system in the host)
 
-3. use URL : https://demo-ae2-project.herokuapp.com/read-customer
+3. use URL : https://demo-ae2-project.herokuapp.com
 
 Prerequisites
 
