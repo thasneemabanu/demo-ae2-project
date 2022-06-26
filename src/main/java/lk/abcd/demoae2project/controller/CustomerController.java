@@ -31,7 +31,7 @@ public class CustomerController {
     @PostMapping("/add-customer")
     public String addCustomer(@ModelAttribute("customer") Customer customer){
         customerService.saveCustomer(customer);
-        return "redirect:/read-customer";
+        return "dashboard";
     }
 
     @GetMapping("/update-customer/{id}")
@@ -58,10 +58,14 @@ public class CustomerController {
     }
     @PostMapping("/login-customer")
     public String login(@ModelAttribute("customer") Customer customer) {
+        if (customer.getEmail().equalsIgnoreCase("admin@gmail.com")
+                && customer.getPassword().equalsIgnoreCase("admin")) {
+            return "admindashboad";
+        }
         boolean isPresent = customerService.login(customer);
         if (isPresent)
             return "redirect:/read-customer";
         else
-            return "redirect:/add-customer";
+            return "dashboard";
     }
 }
