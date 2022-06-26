@@ -12,7 +12,6 @@
             <th>Lastname</th>
             <th>Mobile</th>
             <th>Email</th>
-            <th>Password</th>
             <th>Address</th>
             <th>Country</th>
             <th>Update</th>
@@ -25,7 +24,6 @@
                 <td>${customer.lastname}</td>
                 <td>${customer.mobile}</td>
                 <td>${customer.email}</td>
-                <td>${customer.password}</td>
                 <td>${customer.address}</td>
                 <td>${customer.country}</td>
                 <td><a class="btn btn-warning" href="/update-customer/${customer.id}">Update</a></td>
