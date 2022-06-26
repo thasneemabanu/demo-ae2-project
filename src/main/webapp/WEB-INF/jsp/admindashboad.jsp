@@ -13,9 +13,6 @@
           <h2>Customer Management</h2>
           <a href="/read-customer" class="btn btn-block btn-primary">VIEW Customers</a>
         </div><!-- end of col4 div-->
-
-
-
         <div class="col-lg-4 col-md-4 text-dark">
           <h2>Feedback Details</h2>
           <a href="/read-feedback" class="btn btn-block btn-primary">Read Feedback</a>
