@@ -3,7 +3,8 @@
 
 
 <link href="/css/bootstrap.css" rel="stylesheet">
-<center><body style="background-color:powderblue;">
+<link href="/css/customer.css" rel="stylesheet">
+<center><body class="bg">
 <div class="container">
     <div class="card">
 <h1 class="text-light text-center " style="background:black;">Create Package</h1>

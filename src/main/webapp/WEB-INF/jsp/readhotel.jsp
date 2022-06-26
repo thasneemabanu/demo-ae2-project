@@ -2,7 +2,8 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <link href="/css/bootstrap.css" rel="stylesheet">
-<center><body style="background-color:powderblue;">
+<link href="/css/customer.css" rel="stylesheet">
+<center><body class="bg">
 <h1 class="text-dark text-center " style="background:white;">Read Hotel</h1>
     <table border="2" width="70%" cellpadding="2">
         <tr>
