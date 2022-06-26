@@ -5,21 +5,24 @@
 <link href="/css/customer.css" rel="stylesheet">
 <center><body class="bg">
 <div class="container">
-    <div class="card">
 <h1 class="text-light text-center " style="background:black;">Create Feedback</h1>
 <form:form method="post" action="/create-feedback">
     <table>
         <tr class = "row">
             <td>First Name: </td>
-            <td><form:input path="name"/></td>
+            <td><form:input class="form-control" path="name"/></td>
+        </tr>
+         <tr class = "row">
             <td>Email: </td>
-            <td><form:input path="email"/></td>
+            <td><form:input class="form-control" path="email"/></td>
         </tr>
          <tr class = "row">
             <td>Your Message: </td>
-            <td><form:input path="message"/></td>
+            <td><form:input class="form-control" path="message"/></td>
+        </tr>
+         <tr class = "row">
             <td>Ratings from A,B or C: </td>
-            <td><form:input path="ratingsforthehotel"/></td>
+            <td><form:input class="form-control" path="ratingsforthehotel"/></td>
         </tr>
         <tr class = "row">
             <td></td>
@@ -27,7 +30,6 @@
         </tr>
     </table>
 </form:form>
-    </div>
  </div>
 </body></center>
 <script src="/js/bootstrap.js"></script>

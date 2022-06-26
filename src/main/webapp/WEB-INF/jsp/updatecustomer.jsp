@@ -5,37 +5,36 @@
 <link href="/css/customer.css" rel="stylesheet">
 <center><body class="bg">
 <div class="container">
-    <div class="card">
-<h1 class="text-light text-center " style="background:black;" >Update Contact</h1>
+<h1 class="text-light text-center " style="background:black;" >Update Customer</h1>
 <form:form method="post" action="/update-customer/${id}">
     <table>
         <tr>
             <td>First Name: </td>
-            <td><form:input path="firstname"/></td>
+            <td><form:input class="form-control" path="firstname"/></td>
         </tr>
         <tr>
             <td>Last Name: </td>
-            <td><form:input path="lastname"/></td>
+            <td><form:input class="form-control" path="lastname"/></td>
         </tr>
         <tr>
             <td>Mobile Number: </td>
-            <td><form:input path="mobile"/></td>
+            <td><form:input class="form-control" path="mobile"/></td>
         </tr>
         <tr>
             <td>Email: </td>
-            <td><form:input path="email"/></td>
+            <td><form:input class="form-control" path="email"/></td>
         </tr>
         <tr>
             <td>Password: </td>
-            <td><form:input path="password"/></td>
+            <td><form:input class="form-control" path="password"/></td>
         </tr>
         <tr>
             <td>Address: </td>
-            <td><form:input path="address"/></td>
+            <td><form:input class="form-control" path="address"/></td>
         </tr>
         <tr>
             <td>Country: </td>
-            <td><form:input path="country"/></td>
+            <td><form:input class="form-control" path="country"/></td>
         </tr>
         <tr>
             <td></td>
@@ -43,7 +42,6 @@
         </tr>
     </table>
 </form:form>
-    </div>
  </div>
 </body></center>
 <script src="/js/bootstrap.js"></script>

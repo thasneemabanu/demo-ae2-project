@@ -9,24 +9,24 @@
 <h1 class="text-light text-center " style="background:black;" >Update Feedback</h1>
 <form:form method="post" action="/update-feedback/${id}">
     <table>
-        <tr>
+        <tr class="row">
             <td>Name: </td>
-            <td><form:input path="name"/></td>
+            <td><form:input class="form-control" path="name"/></td>
         </tr>
-        <tr>
+        <tr class="row">
             <td>Email: </td>
-            <td><form:input path="email"/></td>
+            <td><form:input class="form-control" path="email"/></td>
         </tr>
-        <tr>
+        <tr class="row">
             <td>Message: </td>
-            <td><form:input path="message"/></td>
+            <td><form:input class="form-control" path="message"/></td>
         </tr>
-        <tr>
+        <tr class="row">
             <td>Ratings: </td>
-            <td><form:input path="ratingsforthehotel"/></td>
+            <td><form:input class="form-control" path="ratingsforthehotel"/></td>
         </tr>
 
-        <tr>
+        <tr class="row">
             <td></td>
             <td><input class="btn btn-primary" type="submit" value="Update" /></td>
         </tr>
