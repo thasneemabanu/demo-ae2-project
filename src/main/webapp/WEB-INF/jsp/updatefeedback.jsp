@@ -4,8 +4,7 @@
 <link href="/css/bootstrap.css" rel="stylesheet">
 <link href="/css/customer.css" rel="stylesheet">
 <center><body class="bg">
-<div class="container">
-    <div class="card">
+
 <h1 class="text-light text-center " style="background:black;" >Update Feedback</h1>
 <form:form method="post" action="/update-feedback/${id}">
     <table>
@@ -32,7 +31,6 @@
         </tr>
     </table>
 </form:form>
-    </div>
- </div>
+
 </body></center>
 <script src="/js/bootstrap.js"></script>
